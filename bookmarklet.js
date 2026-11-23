@@ -27,7 +27,7 @@
         render();
     };
 
-    const render = () => {
+    let render = () => {
         const output = document.getElementById("chat-archive-output");
         if (!output) return;
 
